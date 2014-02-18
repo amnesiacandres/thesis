@@ -73,11 +73,7 @@ Assessment of breast cancer
 \end_layout
 
 \begin_layout Section
-Mammographic characteristics of breast cancer and 
-\end_layout
-
-\begin_layout Section
-Automated analysis of mammograms
+Mammographic characteristics of breast cancer and its automated analysis
 \end_layout
 
 \begin_layout Standard
@@ -113,103 +109,13 @@ Masses are better associated to breast cancer than MCC, but in early stages
  in mammograms would provide 
 \end_layout
 
+\begin_layout Standard
+
+\end_layout
+
 \begin_layout Section
 General hypothesis and dissertation objectives
 \end_layout
 
-\begin_layout Standard
-As the author presented in this chapter, important advances have been done
- in the field of digital analysis of mammograms.
- However there are still large areas of opportunity to improve existing
- systems and to study novel associations of radiologic phenotypes and breast
- cancer.
-\end_layout
-
-\begin_layout Standard
-The principal hypothesis that will be validated in this work is: Image informati
-on gathered during screening mammography is sufficient to identify image
- sets with radiological findings positively associated with breast cancer.
-\end_layout
-
-\begin_layout Standard
-The primary and secondary hypotheses for this work are:
-\end_layout
-
-\begin_layout Description
-Primary 
-\begin_inset Formula $H_{0}$
-\end_inset
-
-: Image-based biomarkers derived from screening mammograms are strongly
- associated with the presence of breast cancer.
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-\begin_inset Formula $H_{0}$
-\end_inset
-
-: Image-based biomarkers are associated to the BI-RADS score.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $H_{0}$
-\end_inset
-
-: Image-based biomarkers are associated to the presence of cancer.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $H_{0}$
-\end_inset
-
-: Image-based biomarkers are associated with cancer molecular subtypes.
-\end_layout
-
-\end_deeper
-\begin_layout Description
-Secondary 
-\begin_inset Formula $H_{0}$
-\end_inset
-
-: Higher-order texture features have stronger prediction than first-order
- image features to predict the presence of breast cancer.
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-\begin_inset Formula $H_{0}$
-\end_inset
-
-: Features derived from the grey-level co-occurrence matrix (GLCM) improve
- the prediction performance compared to first-order features.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $H_{0}$
-\end_inset
-
-: Features derived from the Minkowski Functionals improve the prediction
- performance compared to first-order features.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $H_{0}$
-\end_inset
-
-: Features derived from wavelet decompositions of mammograms improve the
- prediction performance compared to raw mammograms.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $H_{0}$
-\end_inset
-
-: Removing pectoral muscle tissue from the segmentation improve the prediction
- performance over entire image analysis.
-\end_layout
-
-\end_deeper
 \end_body
 \end_document

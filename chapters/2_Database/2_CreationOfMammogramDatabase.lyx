@@ -1,0 +1,116 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass report
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Creation of a database of mammograms
+\end_layout
+
+\begin_layout Standard
+The objectives stated in the previous chapter require a systematic analysis
+ of mammograms.
+ To date, there is no theoretical model that is able to capture the heterogeneit
+y of appearance of breast parenchyma as present in real mammograms, not
+ to mention the wide variety of phenotypes in the case of 
+\emph on
+in situ
+\emph default
+ or invasive lesions.
+ In the past, authors have used collections of analog or digital mammograms
+ to perform their experiments and validate their hypothesis.
+ 
+\end_layout
+
+\begin_layout Standard
+Collections of mammograms can be widely grouped in two categories: private
+ and public.
+ The most commonly used are private collections, mainly because it is not
+ always acceptable to share medical images even when anonymity is assured.
+ The principal drawbacks of private collection are that it is not possible
+ for other authors to reproduce the results or to make valid comparisons
+ when using a different collection.
+ On the other hand, a private collection has remarkable advantages: all
+ the acquisition parameters are known or retrievable, patients can be contacted
+ for information completion or follow-up after treatment, it is relatively
+ easy to retrieve lab exams or even biopsy samples, and it is always possible
+ to increase the size of the sample when needed.
+\end_layout
+
+\begin_layout Standard
+In an effort to overcome the limitations of private collections, some authors
+ have made publicly available their mammogram collections.
+ In order for a public collection to be useful for third-party researchers,
+ it is requires to include relevant patient information such as age or menopausa
+l status, radiologic findings, and final diagnosis.
+ These classifications provide a ground truth that would allow other researchers
+ to adequately train their systems, and more importantly would allow fair
+ comparisons between systems from various authors.
+ The principal disadvantage of public collections is that the amount of
+ information available is commonly bounded by the hypothesis of the publishing
+ author, potentially impeding the validation of other hypothesis.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

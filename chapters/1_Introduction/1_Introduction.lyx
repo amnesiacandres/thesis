@@ -2,7 +2,7 @@
 \lyxformat 413
 \begin_document
 \begin_header
-\textclass article
+\textclass report
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -25,9 +25,10 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
-\use_geometry false
+\use_geometry true
 \use_amsmath 1
 \use_esint 1
 \use_mhchem 1
@@ -42,8 +43,8 @@
 \shortcut idx
 \color #008000
 \end_index
-\secnumdepth 3
-\tocdepth 3
+\secnumdepth 2
+\tocdepth 2
 \paragraph_separation indent
 \paragraph_indentation default
 \quotes_language english
@@ -59,7 +60,7 @@
 
 \begin_body
 
-\begin_layout Part
+\begin_layout Chapter
 Introduction, background and motivation
 \end_layout
 
@@ -72,12 +73,191 @@ Assessment of breast cancer
 \end_layout
 
 \begin_layout Section
-Mammographic characteristics of breast cancer
+Mammographic characteristics of breast cancer and 
+\end_layout
+
+\begin_layout Section
+Automated analysis of mammograms
+\end_layout
+
+\begin_layout Standard
+Digital analysis of mammograms has been a matter of study for more than
+ three decades.
+ During this period, the scope of the principal trend of research in the
+ area has shifted in multiple occasions to provide the solutions required
+ by radiologists.
+ In the decade of the 1980's, the few researchers with the technological
+ infrastructure necessary for digital analysis of images developed contrast
+ enhancement methods that would allow radiologists a better visualization
+ of subtle lesions.
+ 
+\end_layout
+
+\begin_layout Standard
+As contrast enhancement provided small practical value, the research interest
+ quickly shifted towards the characterization of commonly seen lesions,
+ especially micro calcifications (MCC).
+ MCC detection and characterization is a matter of interest to the date,
+ however, the amount of breast cancer cases in which MCC are hard to detect
+ by a radiologist are barely none.
+ Additionally, it is often found that MCC never evolve into cancer.
+ In consequence, MCC characterization gives little value to the radiologists
+ in most cases.
+\end_layout
+
+\begin_layout Standard
+Masses are better associated to breast cancer than MCC, but in early stages
+ of cancer their appearance is subtle and hard to detect even by trained
+ radiologists.
+ Evidently, the automated identification and characterization of masses
+ in mammograms would provide 
 \end_layout
 
 \begin_layout Section
 General hypothesis and dissertation objectives
 \end_layout
 
+\begin_layout Standard
+As the author presented in this chapter, important advances have been done
+ in the field of digital analysis of mammograms.
+ However there are still large areas of opportunity to improve existing
+ systems and to study novel associations of radiologic phenotypes and breast
+ cancer.
+\end_layout
+
+\begin_layout Standard
+The principal hypothesis that will be validated in this work is: Image informati
+on gathered during screening mammography is sufficient to identify image
+ sets with radiological findings positively associated with breast cancer.
+\end_layout
+
+\begin_layout Standard
+The primary and secondary hypotheses for this work are:
+\end_layout
+
+\begin_layout Description
+Primary 
+\begin_inset Formula $H_{0}$
+\end_inset
+
+: Image-based biomarkers derived from screening mammograms are strongly
+ associated with the presence of breast cancer.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $H_{0}$
+\end_inset
+
+: Image-based biomarkers are associated to the BI-RADS score.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $H_{0}$
+\end_inset
+
+: Image-based biomarkers are associated to the presence of cancer.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $H_{0}$
+\end_inset
+
+: Image-based biomarkers are associated with cancer molecular subtypes.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Secondary 
+\begin_inset Formula $H_{0}$
+\end_inset
+
+: Higher-order texture features have stronger prediction than first-order
+ image features to predict the presence of breast cancer.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $H_{0}$
+\end_inset
+
+: Features derived from the grey-level co-occurrence matrix (GLCM) improve
+ the prediction performance compared to first-order features.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $H_{0}$
+\end_inset
+
+: Features derived from the Minkowski Functionals improve the prediction
+ performance compared to first-order features.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $H_{0}$
+\end_inset
+
+: Features derived from wavelet decompositions of mammograms improve the
+ prediction performance compared to raw mammograms.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $H_{0}$
+\end_inset
+
+: Removing pectoral muscle tissue from the segmentation improve the prediction
+ performance over entire image analysis.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+It is expected from this research to contribute to the advancement of the
+ scientific knowledge in the fields of digital analysis of mammograms, digital
+ characteristics of mammograms of the Mexican population, and breast cancer
+ research.
+\end_layout
+
+\begin_layout Itemize
+Demonstrate that characterization of breast parenchyma can be used for the
+ development of breast cancer biomarkers using screening mammograms.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+This contribution is measurable with the construction of image-based biomarkers
+ for clinical endpoints of breast cancer, and demonstrating their effectiveness
+ to distinguish between classes of interest (Cancer vs Normal, Low vs High
+ BIRADS score, tumor subtypes)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Determine a set of image analysis methods useful for complete breast characteriz
+ation.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Will be measured by the selection, implementation and evaluation of image
+ processing and feature extraction methods that are useful for the construction
+ of image-based biomarkers for breast cancer.
+ Particularly, the advantages of using a set of features obtained from the
+ Minkowski Functionals curves will be analyzed and discussed.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Establish an association between mammographic features and molecular properties
+ of breast cancer tumors.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Will be accomplished by comparing image features with molecular characteristics
+ of tumors as molecular subtype and gene expression.
+\end_layout
+
+\end_deeper
 \end_body
 \end_document

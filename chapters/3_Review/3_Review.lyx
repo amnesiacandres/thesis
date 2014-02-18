@@ -2,7 +2,7 @@
 \lyxformat 413
 \begin_document
 \begin_header
-\textclass article
+\textclass report
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -25,9 +25,10 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
-\use_geometry false
+\use_geometry true
 \use_amsmath 1
 \use_esint 1
 \use_mhchem 1
@@ -42,8 +43,8 @@
 \shortcut idx
 \color #008000
 \end_index
-\secnumdepth 3
-\tocdepth 3
+\secnumdepth 2
+\tocdepth 2
 \paragraph_separation indent
 \paragraph_indentation default
 \quotes_language english
@@ -59,12 +60,12 @@
 
 \begin_body
 
-\begin_layout Part
+\begin_layout Chapter
 Review: Mammogram analysis and its applications for breast cancer diagnosis
  and assessment
 \end_layout
 
-\begin_layout Abstract
+\begin_layout Verse
 Mammogram analysis using automatic methods has been a matter of study for
  several years.
  In this chapter the author summarizes the most relevant texture analysis
@@ -73,6 +74,34 @@ Mammogram analysis using automatic methods has been a matter of study for
  region of interest within the breast, and the classification performance
  of various sets of features is compared using the area under the receiver-opera
 tor curve (AUC) as performance metric.
+\end_layout
+
+\begin_layout Section
+Signal distribution features
+\end_layout
+
+\begin_layout Section
+Second-order statistics features
+\end_layout
+
+\begin_layout Subsection
+GLCM
+\end_layout
+
+\begin_layout Subsection
+Run-length
+\end_layout
+
+\begin_layout Section
+Spatial texture techniques
+\end_layout
+
+\begin_layout Subsection
+Gabor
+\end_layout
+
+\begin_layout Subsection
+Wavelet
 \end_layout
 
 \end_body

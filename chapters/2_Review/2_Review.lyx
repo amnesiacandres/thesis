@@ -64,5 +64,44 @@ Review: Mammogram analysis and its applications for breast cancer diagnosis
  and assessment
 \end_layout
 
+\begin_layout Abstract
+Mammogram analysis using automatic methods has been a matter of study for
+ several years.
+ In this chapter the author summarizes the most relevant texture analysis
+ techniques used for the analysis of mammograms.
+ Then, the features used by other authors are measured from a delimited
+ region of interest within the breast, and the classification performance
+ of various sets of features is compared using the area under the receiver-opera
+tor curve (AUC) as performance metric.
+\end_layout
+
+\begin_layout Section
+Signal distribution features
+\end_layout
+
+\begin_layout Section
+Second-order statistics features
+\end_layout
+
+\begin_layout Subsection
+GLCM
+\end_layout
+
+\begin_layout Subsection
+Run-length
+\end_layout
+
+\begin_layout Section
+Spatial texture techniques
+\end_layout
+
+\begin_layout Subsection
+Gabor
+\end_layout
+
+\begin_layout Subsection
+Wavelet
+\end_layout
+
 \end_body
 \end_document

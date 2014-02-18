@@ -83,5 +83,25 @@ filename "chapters/2_Review/2_Review.lyx"
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapters/3_Database/3_CreationOfMammogramDatabase.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapters/4_MinkowskiFunctionals/4_SummaryFeaturesBasedOnMinkowskiFunctionals.lyx"
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document

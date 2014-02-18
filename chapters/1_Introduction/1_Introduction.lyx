@@ -3,9 +3,6 @@
 \begin_document
 \begin_header
 \textclass article
-\begin_preamble
-
-\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -28,7 +25,6 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
-\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -63,24 +59,24 @@
 
 \begin_body
 
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "chapters/1_Introduction/1_Introduction.lyx"
-
-\end_inset
-
-
+\begin_layout Part
+Introduction, background and motivation
 \end_layout
 
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "chapters/2_Review/2_Review.lyx"
+\begin_layout Section
+Breast cancer
+\end_layout
 
-\end_inset
+\begin_layout Section
+Assessment of breast cancer
+\end_layout
 
+\begin_layout Section
+Mammographic characteristics of breast cancer
+\end_layout
 
+\begin_layout Section
+General hypothesis and dissertation objectives
 \end_layout
 
 \end_body

@@ -73,15 +73,5 @@ filename "chapters/1_Introduction/1_Introduction.lyx"
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "chapters/2_Review/2_Review.lyx"
-
-\end_inset
-
-
-\end_layout
-
 \end_body
 \end_document
